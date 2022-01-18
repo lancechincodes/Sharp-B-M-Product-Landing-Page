@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+    <style>
+      @media only screen and (max-width: 768px) {
+          /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+      .flex-container {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <center>
+        <h1>SHARP B&M</h1>
+        <em>
+          <p>A free personalized body and mind weekly plan for excellent health.<p>
+        </em>
+        <img id="header-img" src="images/sharp_logo.png">
+        <h4>Curated by Lance Chin</h4>
+      </center>
+      <br>
+      <center>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#inspiration">Inspiration</a>
+          <a class="nav-link" href="#mission">Mission</a>
+          <a class="nav-link" href="#requestconsultation">Request Consultation</a>
+        </nav>
+      </center>
+    </header>
+    <section id="inspiration">
+      <center>
+        <h2>Sharp B&M Inspiration</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/bHlTnGpIsmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+    </section>
+    <section id="mission">
+      <center>
+        <h2>Sharp B&M Mission</h2>
+      </center>
+      <div class="flex-container">
+        <div>Exercise the Body</div>
+        <div>Engage the Mind</div>
+        <div>Implement Healthy Habits</div>
+      </div>
+    </section>
+    <section id="requestconsultation">
+      <center>
+        <h2>Request Consultation</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" placeholder="Enter email" name="email"><br>
+          <input id="submit" type="submit">
+        </form>
+      </center>
+    </section>
+  </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
