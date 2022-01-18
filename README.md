@@ -4,6 +4,6 @@ It's the third project of my freeCodeCamp Responsive Web Design portfolio.
 
 You can see the project live at the following URL:
 
-### [Product Landing Page](https://lancechincodes.github.io/Product-Landing-Page/)
+### [Product Landing Page](https://lancechincodes.github.io/Sharp-B-M-Product-Landing-Page/)
 
 Cheers!
